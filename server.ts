@@ -58,20 +58,8 @@ app.post("/messages", async (req: Request, res: any) => {
 });
 
 
-app.get("/suka", () => {
-    console.log("what@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@")}
-)
-
-
 io.on('connection', (socket: any) => {
-    console.log('a user is connected ',socket.id)
-
-    socket.emit("hello from server", 1, "2", { 3: Buffer.from([4]) });
-
-    // socket.on("hello from client", (...args: any) => {
-
-    // })
-
+    console.log('a new connection is opened ',socket.id);
 })
 
 var server = http.listen(3001, () => {
