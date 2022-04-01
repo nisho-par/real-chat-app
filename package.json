@@ -1,0 +1,30 @@
+{
+  "name": "real-chat-application",
+  "version": "1.0.0",
+  "description": "real chat application in nojejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "real-chat-application"
+  },
+  "keywords": [
+    "real",
+    "chat",
+    "application"
+  ],
+  "author": "nishant",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.9",
+    "socket.io": "^4.4.1",
+    "typescript": "^4.6.3"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23"
+  }
+}
